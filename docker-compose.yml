@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  job-title-normalizer:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - .:/usr/src/app
+    command: ["java", "-jar", "/app/job-title-normalizer.jar"]
+    depends_on:
+      - maven-build
+
+  maven-build:
+    image: maven:3.6.3-jdk-8
+    volumes:
+      - .:/usr/src/app
+    working_dir: /usr/src/app
+    command: mvn clean install
