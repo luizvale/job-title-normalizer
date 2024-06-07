@@ -1,9 +1,0 @@
-/usr/src/app/src/main/java/com/example/strategies/SimpleQualityScoreStrategy.java
-/usr/src/app/src/main/java/com/example/normalizers/BaseNormalizer.java
-/usr/src/app/src/main/java/com/example/exeptions/NormalizationException.java
-/usr/src/app/src/main/java/com/example/normalizers/Normalizer.java
-/usr/src/app/src/main/java/com/example/loaders/JobTitleLoader.java
-/usr/src/app/src/main/java/com/example/models/JobTitle.java
-/usr/src/app/src/main/java/com/example/MainClass.java
-/usr/src/app/src/main/java/com/example/strategies/QualityScoreStrategy.java
-/usr/src/app/src/main/java/com/example/normalizers/JobTitleNormalizer.java

@@ -1,9 +1,0 @@
-com/example/models/JobTitle.class
-com/example/MainClass.class
-com/example/strategies/SimpleQualityScoreStrategy.class
-com/example/normalizers/Normalizer.class
-com/example/strategies/QualityScoreStrategy.class
-com/example/exeptions/NormalizationException.class
-com/example/normalizers/BaseNormalizer.class
-com/example/normalizers/JobTitleNormalizer.class
-com/example/loaders/JobTitleLoader.class
